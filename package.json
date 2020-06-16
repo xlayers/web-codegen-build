@@ -1,0 +1,24 @@
+{
+  "name": "@xlayers/web-codegen",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@xlayers/sketch-lib": "*",
+    "@xlayers/css-codegen": "*",
+    "@xlayers/svg-codegen": "*"
+  },
+  "main": "bundles/xlayers-web-codegen.umd.js",
+  "module": "fesm5/xlayers-web-codegen.js",
+  "es2015": "fesm2015/xlayers-web-codegen.js",
+  "esm5": "esm5/xlayers-web-codegen.js",
+  "esm2015": "esm2015/xlayers-web-codegen.js",
+  "fesm5": "fesm5/xlayers-web-codegen.js",
+  "fesm2015": "fesm2015/xlayers-web-codegen.js",
+  "typings": "xlayers-web-codegen.d.ts",
+  "metadata": "xlayers-web-codegen.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
